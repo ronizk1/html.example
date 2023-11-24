@@ -156,20 +156,22 @@
 <header data-bs-theme="dark">
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Carousel</a>
+      <a class="navbar-brand" href="#">JERUSALEM ZOO</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
+            <!-- link home -->
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <!-- link gallery -->
+            <a class="nav-link" href="gallery.html">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            <a class="nav-link disabled" aria-disabled="true"></a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -199,7 +201,7 @@
             <h1>JERUSALEM ZOO</h1>
             <p class="opacity-75">Come to see nature</p>
           
-            <p><a class="btn btn-lg btn-primary" href="#">Order a ticket</a></p>
+            <p><a class="btn btn-lg btn-primary" href="ticket.html">Order a ticket</a></p>
           </div>
         </div>
       </div>
@@ -210,7 +212,7 @@
           <div class="carousel-caption">
             <h1>Let's get to know nature</h1>
 
-            <p><a class="btn btn-lg btn-primary" href="#">Opening hours</a></p>
+            <p><a class="btn btn-lg btn-primary" href="#hours">Opening hours</a></p>
           </div>
         </div>
       </div>
@@ -221,7 +223,7 @@
           <div class="carousel-caption text-end">
             <h1>Come and feel nature</h1>
       
-            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+            <p><a class="btn btn-lg btn-primary" href="gallery.html">Browse gallery</a></p>
           </div>
         </div>
       </div>
@@ -250,19 +252,21 @@
         <img src="aqua.jpg" svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
         <h2 class="fw-normal">Israel Aquarium</h2>
         <p>Israel Aquarium is open for pre-order only</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        <p><a class ="btn btn-secondary" href="aqua.html">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-        <h2 class="fw-normal">Heading</h2>
-        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        <!-- bio and butterfly -->
+        <img src="butterfly.jpg" svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <h2 class="fw-normal">Biodiversity Exhibit and Butterfly House</h2>
+        <p>A visit to this exhibit at this point is permitted only as part of a visit to the Israel Aquarium</p>
+        <p><a class="btn btn-secondary" href="bio.html">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-        <h2 class="fw-normal">Heading</h2>
-        <p>And lastly this, the third column of representative placeholder content.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        <!-- donate -->
+        <img src="donate.jpg" svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <h2 class="fw-normal">Donate</h2>
+        <p>You can support the Zoo and the projects that are close to your heart</p>
+        <p><a class="btn btn-secondary" href="donate.html">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
@@ -272,12 +276,18 @@
     <hr class="featurette-divider">
 
     <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-body-secondary">It’ll blow your mind.</span></h2>
-        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+      <div class="col-md-7" id="hours">
+        <!-- hours -->
+        <h2 class="featurette-heading fw-normal lh-1">Opening hours <span class="text-body-secondary">
+          Last entry to the zoo - two hours before closing</span></h2>
+        <p class="lead">Sun-Thu 09:00-16:30</p>
+        
+         <p class="lead">Fri and Holiday eve 09:00-15:00</p>
+         
+         <p class="lead">Sat and Holiday 09:00-16:30</p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+        <img src="hours.jpg" svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
       </div>
     </div>
 
@@ -285,11 +295,18 @@
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
-        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+        <h2 class="featurette-heading fw-normal lh-1">Plan your visit <span class="text-body-secondary">how to get here</span></h2>
+        <p class="lead">1 Derech Aharon Shulov, Jerusalem</p>
+        <p class="lead">By bus:
+
+               Bus line 33 from Har Nof, Bayit V’Gan, Malha Mall, and Gilo.
+          
+             Bus line 26A from Bayit V’Gan and Ramat Sharet neighborhoods goes tothe zoo and the aquarium.
+          
+          -         For more information on bus and light rail routes and times, please contact Egged : http://www.egged.co.il</p>
       </div>
       <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+        <img src="how to.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
       </div>
     </div>
 
@@ -297,11 +314,11 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-body-secondary">Checkmate.</span></h2>
-        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+        <h2 class="featurette-heading fw-normal lh-1">Activities in the zoo<span class="text-body-secondary"> Guided animal feedings and enrichment activities</span></h2>
+        <p class="lead">We look forward to hosting you at the zoo, with guided animal feedings through out the zoo, information stands, and close encounters with animals at the children’s petting zoo, as well as at the aquarium, with guided tours and crafts activities for children</p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+        <img src="food.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
       </div>
     </div>
 
